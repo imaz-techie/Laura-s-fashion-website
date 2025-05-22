@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/euclid-circular-a"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-navbar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand fw-normal" href="#">Laura’s Closet</a>
+
+        <!-- Search bar -->
+        <form class="d-none d-lg-flex mx-auto w-30 border-bottom" role="search">
+          <div class="input-group">
+            <span>
+              <i class="search">
+                <img src="assets/svg/search.svg" alt="search" />
+              </i>
+            </span>
+            <input
+              class="form-control border-0"
+              type="search"
+              placeholder="Search for an item"
+            />
+          </div>
+        </form>
+
+        <!-- Menu items -->
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item px-2">
+            <a class="nav-link text-secondary" href="#">Store</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-secondary" href="#">Account</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-secondary" href="#">Wish List</a>
+          </li>
+          <li class="nav-item px-2">
+            <a
+              class="nav-link fw-bold text-dark d-flex align-items-center"
+              href="#"
+            >
+              Basket
+              <i class="bi bi-basket ms-1">
+                <img src="assets/svg/basket.svg" alt="icon" />
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Header Section starts here -->
+    <div class="container-fluid">
+      <div class="nav-btn w-100 d-lg-flex justify-content-between">
+        <button class="border-0 bg-white">New Arrivals</button>
+        <button class="border-0 bg-white">Fresh</button>
+        <button class="border-0 bg-white">Dresses</button>
+        <button class="border-0 bg-white">Tops</button>
+        <button class="border-0 bg-white">Jackets</button>
+        <button class="border-0 bg-white">Lingerie & Lounge Wear</button>
+        <button class="border-0 bg-white">Beach Wear</button>
+        <button class="border-0 bg-white">Blouse</button>
+        <button class="border-0 bg-white">Denim</button>
+        <button class="border-0 bg-white">Vintage</button>
+        <button class="border-0 bg-white">Shoes</button>
+        <button class="border-0 bg-white">Sandals</button>
+        <button class="border-0 bg-white">Bags</button>
+        <button class="border-0 bg-white">Jewelries</button>
+      </div>
+    </div>
+    <!-- Hero Section starts Here -->
+    <div class="container-fluid mt-2 mb-5">
+      <div class="row vh-90">
+        <div class="col-8 h-100 bg-navy position-relative">
+          <div
+            class="position-absolute text-white top-25 start-10 bg-darkBlue d-flex align-items-center justify-content-center flex-column p-5"
+          >
+            <h1>Get up to 30% off</h1>
+            <h1 class="text-badge">New Arrivals</h1>
+            <p>Introducing our latest collection of products</p>
+            <button class="main-btn mt-3">
+              Place your order
+              <img src="./assets/svg/right-arrow.svg" alt="" class="ms-2" />
+            </button>
+          </div>
+          <img
+            src="./assets/svg/hero-pattern.svg"
+            alt=""
+            class="w-100 h-100 object-fit-cover"
+          />
+        </div>
+        <div
+          class="col-4 h-100 bg-badge position-relative d-flex align-items-center justify-content-center"
+        >
+          <div class="circle rounded-circle bg-white"></div>
+          <img
+            src="assets/images/lara.png"
+            alt="lara"
+            class="position-absolute"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Highlights Section starts here -->
+    <!-- <section class="container d-grid mb-5">
+      <div class="row vh-50">
+        <div class="col-5 h-100">
+          <img
+            src="assets/images/highlights-img1.jpg"
+            alt=""
+            class="w-100 h-100 object-fit-cover"
+          />
+        </div>
+        <div class="col-7 h-100">
+          <img
+            src="assets/images/highlights-img2.jpg"
+            alt=""
+            class="w-100 h-100 object-fit-cover"
+          />
+        </div>
+      </div>
+      <div class="row vh-50 mt-4">
+        <div class="col-7 h-100">
+          <img
+            src="assets/images/highlights-img3.jpg"
+            alt=""
+            class="w-100 h-100 object-fit-cover"
+          />
+        </div>
+        <div class="col-5 h-100">
+          <img
+            src="assets/images/highlights-img4.jpg"
+            alt=""
+            class="w-100 h-100 object-fit-cover"
+          />
+        </div>
+      </div>
+    </section> -->
+
+    <section class="container mb-5">
+      <div class="row g-3">
+        <div class="col-12 col-md-5 position-relative text-white">
+          <img
+            src="assets/images/highlights-img1.jpg"
+            alt=""
+            class="img-fluid w-100 h-100 object-fit-cover"
+            style="min-height: 200px; max-height: 50vh"
+          />
+          <div class="content position-absolute top-40 start-33">
+            <h1 class="text-center">
+              Exclusive <br />
+              Shoes
+            </h1>
+          </div>
+        </div>
+        <div class="col-12 col-md-7">
+          <img
+            src="assets/images/highlights-img2.jpg"
+            alt=""
+            class="img-fluid w-100 h-100 object-fit-cover"
+            style="min-height: 200px; max-height: 50vh"
+          />
+        </div>
+      </div>
+
+      <div class="row g-3 mt-3">
+        <div class="col-12 col-md-7 position-relative">
+          <img
+            src="assets/images/highlights-img3.jpg"
+            alt=""
+            class="img-fluid w-100 h-100 object-fit-cover"
+            style="min-height: 200px; max-height: 50vh"
+          />
+          <div class="content position-absolute top-50 start-25">
+            <h1>Exclusive Shoes</h1>
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <img
+            src="assets/images/highlights-img4.jpg"
+            alt=""
+            class="img-fluid w-100 h-100 object-fit-cover"
+            style="min-height: 200px; max-height: 50vh"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

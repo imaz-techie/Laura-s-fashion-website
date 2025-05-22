@@ -1,0 +1,36 @@
+$theme-colors: (
+  "navy": #1c2333,
+  "badge": #f7c59f,
+  "darkBlue": #1f2937,
+);
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/maps";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/utilities";
+
+@import "custom";
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  font-family: "Euclid Circular A";
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.main-btn {
+  color: white;
+  padding: 0.3rem 2rem;
+  border: 2px solid white;
+  background-color: transparent;
+}
+.circle {
+  height: 350px;
+  width: 350px;
+
+  //   border-radius: 50%;
+}
