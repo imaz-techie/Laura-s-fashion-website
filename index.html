@@ -33,7 +33,9 @@
         </form>
 
         <!-- Menu items -->
-        <ul class="navbar-nav ms-auto align-items-center">
+        <ul
+          class="navbar-nav d-none d-md-flex ms-auto flex-row align-items-center"
+        >
           <li class="nav-item px-2">
             <a class="nav-link text-secondary" href="#">Store</a>
           </li>
@@ -55,11 +57,16 @@
             </a>
           </li>
         </ul>
+        <button class="btn d-block d-md-none">
+          <img src="assets/svg/burger-menu.svg" alt="menu" />
+        </button>
       </div>
     </nav>
     <!-- Header Section starts here -->
     <div class="container-fluid">
-      <div class="nav-btn w-100 d-lg-flex justify-content-between">
+      <div
+        class="nav-btn w-100 d-none d-md-none d-lg-flex justify-content-between"
+      >
         <button class="border-0 bg-white">New Arrivals</button>
         <button class="border-0 bg-white">Fresh</button>
         <button class="border-0 bg-white">Dresses</button>
@@ -76,21 +83,33 @@
         <button class="border-0 bg-white">Jewelries</button>
       </div>
     </div>
+    <!-- Header Section ends here -->
+
     <!-- Hero Section starts Here -->
     <div class="container-fluid mt-2 mb-5">
       <div class="row vh-90">
-        <div class="col-8 h-100 bg-navy position-relative">
+        <div class="col-sm-12 col-md-8 h-100 bg-navy position-relative">
           <div
-            class="position-absolute text-white top-25 start-10 bg-darkBlue d-flex align-items-center justify-content-center flex-column p-5"
+            class="position-absolute text-white bg-darkBlue d-flex align-items-center justify-content-center flex-column p-4 p-md-5 text-center"
+            style="
+              min-width: 280px;
+              max-width: 480px;
+              top: 25%;
+              left: 5%;
+              right: 5%;
+            "
           >
-            <h1>Get up to 30% off</h1>
-            <h1 class="text-badge">New Arrivals</h1>
-            <p>Introducing our latest collection of products</p>
+            <h1 class="fs-3 fs-md-1">Get up to 30% off</h1>
+            <h1 class="fs-3 fs-md-1 text-badge">New Arrivals</h1>
+            <p class="fs-6 fs-md-5">
+              Introducing our latest collection of products
+            </p>
             <button class="main-btn mt-3">
               Place your order
               <img src="./assets/svg/right-arrow.svg" alt="" class="ms-2" />
             </button>
           </div>
+
           <img
             src="./assets/svg/hero-pattern.svg"
             alt=""
@@ -98,55 +117,24 @@
           />
         </div>
         <div
-          class="col-4 h-100 bg-badge position-relative d-flex align-items-center justify-content-center"
+          class="col-4 h-100 bg-badge position-relative d-flex align-items-center justify-content-center d-none d-md-flex"
         >
           <div class="circle rounded-circle bg-white"></div>
           <img
             src="assets/images/lara.png"
             alt="lara"
-            class="position-absolute"
+            class="position-absolute bottom-0"
+            style="max-height: 580px"
           />
         </div>
       </div>
     </div>
-    <!-- Highlights Section starts here -->
-    <!-- <section class="container d-grid mb-5">
-      <div class="row vh-50">
-        <div class="col-5 h-100">
-          <img
-            src="assets/images/highlights-img1.jpg"
-            alt=""
-            class="w-100 h-100 object-fit-cover"
-          />
-        </div>
-        <div class="col-7 h-100">
-          <img
-            src="assets/images/highlights-img2.jpg"
-            alt=""
-            class="w-100 h-100 object-fit-cover"
-          />
-        </div>
-      </div>
-      <div class="row vh-50 mt-4">
-        <div class="col-7 h-100">
-          <img
-            src="assets/images/highlights-img3.jpg"
-            alt=""
-            class="w-100 h-100 object-fit-cover"
-          />
-        </div>
-        <div class="col-5 h-100">
-          <img
-            src="assets/images/highlights-img4.jpg"
-            alt=""
-            class="w-100 h-100 object-fit-cover"
-          />
-        </div>
-      </div>
-    </section> -->
+    <!-- Hero Section ends Here -->
 
+    <!-- Highlights Section starts here -->
     <section class="container mb-5">
       <div class="row g-3">
+        <!-- Image 1 -->
         <div class="col-12 col-md-5 position-relative text-white">
           <img
             src="assets/images/highlights-img1.jpg"
@@ -154,44 +142,92 @@
             class="img-fluid w-100 h-100 object-fit-cover"
             style="min-height: 200px; max-height: 50vh"
           />
-          <div class="content position-absolute top-40 start-33">
-            <h1 class="text-center">
-              Exclusive <br />
-              Shoes
-            </h1>
+          <div
+            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+          >
+            <h1 class="display-6 fw-bold">Exclusive<br />Shoes</h1>
+          </div>
+
+          <div
+            class="glass-effect p-3 position-absolute bottom-0 start-3 m-3 rounded-3 text-white z-2"
+          >
+            <h5 class="mb-1">Exclusive Shoes</h5>
+            <div class="fs-12">PRICE 20% OFF</div>
+            <div class="fs-14 mt-2">DISCOUNT CODE - VATR3920</div>
           </div>
         </div>
-        <div class="col-12 col-md-7">
+        <!-- Image 2 -->
+        <div class="col-12 col-md-7 position-relative text-white">
           <img
             src="assets/images/highlights-img2.jpg"
             alt=""
             class="img-fluid w-100 h-100 object-fit-cover"
             style="min-height: 200px; max-height: 50vh"
           />
+          <div
+            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+          >
+            <h1 class="display-6 fw-bold">
+              Exquisite Style & <br />Collection
+            </h1>
+          </div>
+
+          <div
+            class="glass-effect p-3 position-absolute bottom-0 start-3 m-3 rounded-3 text-white z-2"
+          >
+            <h5 class="mb-1">Exquisite Style & Collection</h5>
+            <div class="fs-12">PRICE 20% OFF</div>
+            <div class="fs-14 mt-2">DISCOUNT CODE - VATR3920</div>
+          </div>
         </div>
       </div>
-
       <div class="row g-3 mt-3">
-        <div class="col-12 col-md-7 position-relative">
+        <!-- Image 3 -->
+        <div class="col-12 col-md-7 position-relative text-white">
           <img
             src="assets/images/highlights-img3.jpg"
             alt=""
             class="img-fluid w-100 h-100 object-fit-cover"
             style="min-height: 200px; max-height: 50vh"
           />
-          <div class="content position-absolute top-50 start-25">
-            <h1>Exclusive Shoes</h1>
+          <div
+            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+          >
+            <h1 class="display-6 fw-bold">New Arrivals</h1>
+          </div>
+
+          <div
+            class="glass-effect p-3 position-absolute bottom-0 start-3 m-3 rounded-3 text-white z-2"
+          >
+            <h5 class="mb-1">New Arrivals</h5>
+            <div class="fs-12">PRICE 20% OFF</div>
+            <div class="fs-14 mt-2">DISCOUNT CODE - VATR3920</div>
           </div>
         </div>
-        <div class="col-12 col-md-5">
+        <!-- Image 4 -->
+        <div class="col-12 col-md-5 position-relative text-white">
           <img
             src="assets/images/highlights-img4.jpg"
             alt=""
             class="img-fluid w-100 h-100 object-fit-cover"
             style="min-height: 200px; max-height: 50vh"
           />
+          <div
+            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+          >
+            <h1 class="display-6 fw-bold">Exclusive Items</h1>
+          </div>
+
+          <div
+            class="glass-effect p-3 position-absolute bottom-0 start-3 m-3 rounded-3 text-white z-2"
+          >
+            <h5 class="mb-1">Exclusive Items</h5>
+            <div class="fs-12">PRICE 20% OFF</div>
+            <div class="fs-14 mt-2">DISCOUNT CODE - VATR3920</div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- Highlights Section ends here -->
   </body>
 </html>

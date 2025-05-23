@@ -1,11 +1,43 @@
 $utilities: map-merge(
   $utilities,
   (
+    "font-size": (
+      property: font-size,
+      class: fs,
+      values: (
+        10: 10px,
+        12: 12px,
+        14: 14px,
+        16: 16px,
+        20: 20px,
+        24: 24px,
+        32: 32px,
+      ),
+    ),
     "top": (
       property: top,
       class: top,
       values: (
         0: 0,
+        3: 3%,
+        5: 5%,
+        10: 10%,
+        25: 25%,
+        33: 33%,
+        40: 40%,
+        45: 45%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+      ),
+    ),
+    "bottom": (
+      property: bottom,
+      class: bottom,
+      values: (
+        0: 0,
+        3: 3%,
+        5: 5%,
         10: 10%,
         25: 25%,
         33: 33%,
@@ -21,6 +53,8 @@ $utilities: map-merge(
       class: start,
       values: (
         0: 0,
+        3: 3%,
+        5: 5%,
         10: 10%,
         25: 25%,
         33: 33%,
