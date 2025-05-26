@@ -33,7 +33,5 @@ function countdown() {
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("minutes").innerHTML = minutes;
   document.getElementById("seconds").innerHTML = seconds;
-
-  //   console.log(days + ":" + hours + ":" + minutes + ":" + seconds);
 }
 setInterval(countdown, 1000);
