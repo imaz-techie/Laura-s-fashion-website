@@ -7,6 +7,7 @@ $theme-colors: (
   "peach": #de4f46,
   "textgrey": #6b7280,
   "lightgrey": #f9fafb,
+  "light-text": #f3f4f6,
 );
 
 @import "node_modules/bootstrap/scss/functions";
@@ -30,7 +31,7 @@ body {
 .main-btn {
   color: white;
   padding: 0.3rem 2rem;
-  border: 2px solid white;
+  border: 1px solid white;
   background-color: transparent;
 }
 .circle {
@@ -54,4 +55,7 @@ body {
   background-color: #eb5757 !important;
   color: #ffffff !important;
   transition: background-color 0.5s ease-in-out;
+}
+.m-custom {
+  margin: 5rem 0 3rem 0;
 }
