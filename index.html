@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
     <link
       href="https://fonts.cdnfonts.com/css/euclid-circular-a"
       rel="stylesheet"
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-navbar">
+    <nav class="navbar navbar-expand-lg bg-lightgrey">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand fw-normal" href="#">Laura’s Closet</a>
+        <a class="navbar-brand fw-semibold text-darkgrey" href="#"
+          >Laura’s Closet</a
+        >
 
         <!-- Search bar -->
         <form class="d-none d-lg-flex mx-auto w-30 border-bottom" role="search">
@@ -47,7 +50,7 @@
           </li>
           <li class="nav-item px-2">
             <a
-              class="nav-link fw-bold text-dark d-flex align-items-center"
+              class="nav-link fw-bold text-darkBlue d-flex align-items-center"
               href="#"
             >
               Basket
@@ -62,25 +65,54 @@
         </button>
       </div>
     </nav>
+
     <!-- Header Section starts here -->
     <div class="container-fluid">
       <div
-        class="nav-btn w-100 d-none d-md-none d-lg-flex justify-content-between"
+        class="nav-btn w-100 d-none d-md-none d-lg-flex justify-content-between m-2 fs-14"
       >
-        <button class="border-0 bg-white">New Arrivals</button>
-        <button class="border-0 bg-white">Fresh</button>
-        <button class="border-0 bg-white">Dresses</button>
-        <button class="border-0 bg-white">Tops</button>
-        <button class="border-0 bg-white">Jackets</button>
-        <button class="border-0 bg-white">Lingerie & Lounge Wear</button>
-        <button class="border-0 bg-white">Beach Wear</button>
-        <button class="border-0 bg-white">Blouse</button>
-        <button class="border-0 bg-white">Denim</button>
-        <button class="border-0 bg-white">Vintage</button>
-        <button class="border-0 bg-white">Shoes</button>
-        <button class="border-0 bg-white">Sandals</button>
-        <button class="border-0 bg-white">Bags</button>
-        <button class="border-0 bg-white">Jewelries</button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          New Arrivals
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Fresh
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Dresses
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Tops
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Jackets
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Lingerie & Lounge Wear
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Beach Wear
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Blouse
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Denim
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Vintage
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Shoes
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Sandals
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Bags
+        </button>
+        <button class="border-0 bg-white text-darkgrey fw-semibold">
+          Jewelries
+        </button>
       </div>
     </div>
     <!-- Header Section ends here -->
@@ -152,7 +184,7 @@
             style="min-height: 200px; max-height: 50vh"
           />
           <div
-            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+            class="position-absolute top-33 start-50 translate-middle text-center z-2"
           >
             <h1 class="display-6 fw-bold">Exclusive<br />Shoes</h1>
           </div>
@@ -171,10 +203,10 @@
             src="assets/images/highlights-img2.jpg"
             alt=""
             class="img-fluid w-100 h-100 object-fit-cover"
-            style="min-height: 200px; max-height: 50vh"
+            style="min-height: 325px; max-height: 50vh"
           />
           <div
-            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+            class="position-absolute top-33 start-50 translate-middle text-center z-2"
           >
             <h1 class="display-6 fw-bold">
               Exquisite Style & <br />Collection
@@ -196,11 +228,11 @@
           <img
             src="assets/images/highlights-img3.jpg"
             alt=""
-            class="img-fluid w-100 h-100 object-fit-cover"
-            style="min-height: 200px; max-height: 50vh"
+            class="img-fluid w-100 object-fit-cover"
+            style="min-height: 315px; max-height: 50vh"
           />
           <div
-            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+            class="position-absolute top-33 start-50 translate-middle text-center z-2"
           >
             <h1 class="display-6 fw-bold">New Arrivals</h1>
           </div>
@@ -222,7 +254,7 @@
             style="min-height: 200px; max-height: 50vh"
           />
           <div
-            class="position-absolute top-50 start-50 translate-middle text-center z-2"
+            class="position-absolute top-33 start-50 translate-middle text-center z-2"
           >
             <h1 class="display-6 fw-bold">Exclusive Items</h1>
           </div>
@@ -238,6 +270,8 @@
       </div>
     </section>
     <!-- Highlights Section ends here -->
+
+    <!-- popular section starts here -->
     <section>
       <div
         class="pop-heading w-100 d-flex flex-column align-items-center mb-4 text-darkgrey"
@@ -249,7 +283,7 @@
         ></p>
       </div>
       <div
-        class="container d-flex justify-content-lg-between gap-2 align-items-center justify-content-sm-center flex-wrap"
+        class="container d-flex gap-2 justify-content-center justify-content-lg-between align-items-center flex-wrap"
       >
         <!-- card 1 starts Here -->
         <div class="card border-0" style="width: 18rem">
@@ -406,8 +440,8 @@
         <div
           class="d-flex flex-wrap gap-2 position-absolute bottom-0 start-5 mb-4 text-white"
         >
-          <div>
-            <h3 id="days">07</h3>
+          <div id="countdown">
+            <h3 id="days"></h3>
             <h6>Days</h6>
           </div>
           <span class="fs-16">:</span>
@@ -429,78 +463,133 @@
       </div>
     </section>
     <!-- Footer Starts Here -->
-    <footer class="p-5 vh-60 text-textgrey bg-lightgrey">
-      <div class="d-flex gap-4 h-100">
+    <footer class="p-5 text-textgrey bg-lightgrey">
+      <!-- <div class="d-flex justify-content-between h-100"> -->
+      <div
+        class="d-flex flex-column flex-lg-row justify-content-between h-100 gap-4"
+      >
         <!-- Left Column -->
-        <div class="d-flex flex-column col-7 justify-content-between">
-          <div class="d-flex gap-5 fs-14">
+        <div class="d-flex flex-column w-100 w-lg-50 justify-content-between">
+          <!-- Left Column -->
+          <div class="d-lg-flex flex-wrap gap-5 fs-14 m-0">
             <div class="d-flex flex-column">
               <h5 class="text-darkgrey">COMPANY INFO</h5>
-              <p>About Laura’s Closet</p>
-              <p>Social Responsibility</p>
-              <p>Affiliate</p>
-              <p>Fashion Blogger</p>
+              <ul class="list-unstyled lh-2">
+                <li>Social Responsibility</li>
+                <li>Affiliate</li>
+                <li>Fashion Blogger</li>
+                <li>About Laura’s Closet</li>
+              </ul>
             </div>
             <div class="d-flex flex-column">
               <h5 class="text-darkgrey">HElP & SUPPORT</h5>
-              <p>Shipping Info</p>
-              <p>Returns</p>
-              <p>How to Order</p>
-              <p>How to Track</p>
-              <p>Size Chart</p>
+              <ul class="list-unstyled lh-4">
+                <li>Shipping Info</li>
+                <li>Returns</li>
+                <li>How to Order</li>
+                <li>How to Track</li>
+                <li>Size Chart</li>
+              </ul>
             </div>
             <div class="d-flex flex-column">
               <h5 class="text-darkgrey">CUSTOMER CARE</h5>
-              <p>Contact Us</p>
-              <p>Payment</p>
-              <p>Bonus Point</p>
-              <p>Notices</p>
+              <ul class="list-unstyled lh-4">
+                <li>Contact Us</li>
+                <li>Payment</li>
+                <li>Bonus Point</li>
+                <li>Notices</li>
+              </ul>
             </div>
           </div>
+          <!-- Left Bottom Content -->
           <div>
             <div>
               <p>©2010-2022 Laura’s Closet All Rights Reserved</p>
             </div>
-            <div class="d-flex gap-3 text-decoration-underline">
+            <div class="d-flex flex-wrap gap-3 text-decoration-underline">
               <p>Privacy Center</p>
               <p>Privacy & Cookie Policy</p>
               <p>Manage Cookies</p>
             </div>
-            <div class="d-flex gap-3 text-decoration-underline">
-              <p>Privacy Center</p>
-              <p>Privacy & Cookie Policy</p>
-              <p>Manage Cookies</p>
+            <div class="d-flex flex-wrap gap-3 text-decoration-underline">
+              <p>Terms & Conditions</p>
+              <p>Copyright Notice</p>
+              <p>Imprint</p>
             </div>
           </div>
         </div>
         <!-- Right Column -->
-        <div class="d-flex flex-column w-100">
-          <div class="d-flex justify-content-between">
-            <div class="d-flex flex-column">
-              <h5 class="text-darkgrey">SOCIALS</h5>
-              <div class="d-flex gap-2">
-                <img src="assets/icons/facebook.svg" alt="" />
-                <img src="assets/icons/twitter.svg" alt="" />
-                <img src="assets/icons/instagram.svg" alt="" />
-                <img src="assets/icons/tiktok.svg" alt="" />
-                <img src="assets/icons/snapchat.svg" alt="" />
-              </div>
-            </div>
-            <div class="d-flex flex-column">
-              <h5 class="text-darkgrey">PLATFORMS</h5>
-              <div>
-                <img src="assets/icons/facebook.svg" alt="" />
-                <img src="assets/icons/twitter.svg" alt="" />
-              </div>
-            </div>
-          </div>
+        <div class="d-flex flex-column w-100 w-lg-50 justify-content-between">
+          <!-- Right Column -->
           <div>
-            <p>SIGN UP FOR LAURA’S CLOSET STYLE NEWS</p>
+            <div class="d-flex justify-content-between flex-wrap mb-5">
+              <div class="d-flex flex-column">
+                <h5 class="text-darkgrey">SOCIALS</h5>
+                <div class="d-flex gap-2">
+                  <img src="assets/icons/facebook.svg" alt="" />
+                  <img src="assets/icons/twitter.svg" alt="" />
+                  <img src="assets/icons/instagram.svg" alt="" />
+                  <img src="assets/icons/tiktok.svg" alt="" />
+                  <img src="assets/icons/snapchat.svg" alt="" />
+                </div>
+              </div>
+              <div class="d-flex flex-column">
+                <h5 class="text-darkgrey">PLATFORMS</h5>
+                <div>
+                  <img src="assets/icons/Android.svg" alt="" />
+                  <img src="assets/icons/Apple-logo.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <p class="fs-14 text-black m-0">
+                  SIGN UP FOR LAURA’S CLOSET STYLE NEWS
+                </p>
+              </div>
+              <!-- <div class="w-100 d-flex gap-2">
+                <input class="w-75 p-2" type="email" placeholder="Your email" />
+                <button class="w-25 p-2 bg-darkBlue text-white">
+                  SUBSCRIBE
+                </button>
+              </div> -->
+              <div class="w-100 d-flex flex-column flex-lg-row gap-2">
+                <input
+                  class="w-100 w-lg-75 p-2"
+                  type="email"
+                  placeholder="Your email"
+                />
+                <button class="w-lg-25 p-2 bg-darkBlue text-white">
+                  SUBSCRIBE
+                </button>
+              </div>
+            </div>
+            <div class="fs-12 mt-4">
+              By clicking the SUBSCRIBE button,tou are agreeing to our
+              <span><a href="privacy policy">Privacy Policy</a></span>
+            </div>
           </div>
-
-          <div class="w-100 d-flex gap-2">
-            <input class="w-75 p-2" type="email" placeholder="Your email" />
-            <button class="w-25 p-2 bg-darkBlue text-white">SUBSCRIBE</button>
+          <!-- Right Bottom content -->
+          <div>
+            <div class="fs-14 text-black my-3">We Accept</div>
+            <div class="d-flex flex-wrap gap-2">
+              <img src="assets/svg/MasterCard.svg" alt="" />
+              <img src="assets/svg/PayPal.svg" alt="" />
+              <img src="assets/svg/eBay.svg" alt="" />
+              <img src="assets/svg/Google Pay.svg" alt="" />
+              <img src="assets/svg/monobank.svg" alt="" />
+              <img src="assets/svg/Discover.svg" alt="" />
+              <img src="assets/svg/Western Union.svg" alt="" />
+              <img src="assets/svg/Payoneer.svg" alt="" />
+            </div>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <img src="assets/svg/ApplePay.svg" alt="" />
+              <img src="assets/svg/American Express.svg" alt="" />
+              <img src="assets/svg/Amazon.svg" alt="" />
+              <img src="assets/svg/AliPay.svg" alt="" />
+              <img src="assets/svg/BitPay.svg" alt="" />
+              <img src="assets/svg/Bitcoin.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
