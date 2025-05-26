@@ -50,6 +50,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.hover-bg:hover {
-  background-color: #7c1111; // Use any color you like here
+.onHover:hover {
+  background-color: #eb5757 !important;
+  color: #ffffff !important;
+  transition: background-color 0.5s ease-in-out;
 }
