@@ -57,5 +57,20 @@ body {
   transition: background-color 0.5s ease-in-out;
 }
 .m-custom {
-  margin: 5rem 0 3rem 0;
+  margin: 7rem 0 3rem 0 !important;
+}
+.search-input::-webkit-input-placeholder {
+  color: #9ca3af;
+}
+
+@media (max-width: 576px) {
+  .custom-text-sm-18 {
+    font-size: 22px !important;
+  }
+  .custom-text-sm-14 {
+    font-size: 14px !important;
+  }
+  .main-btn {
+    padding: 0.3rem 1rem;
+  }
 }

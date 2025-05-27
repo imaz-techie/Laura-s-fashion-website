@@ -17,42 +17,28 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-lightgrey">
       <div class="container ms-3">
-        <!-- Logo -->
-        <a class="navbar-brand fw-semibold text-darkgrey" href="#"
-          >Laura’s Closet</a
-        >
+        <div class="d-flex w-50 justify-content-between">
+          <!-- Logo -->
+          <a class="navbar-brand fw-semibold text-darkgrey" href="#"
+            >Laura’s Closet</a
+          >
 
-        <!-- Search bar -->
-        <div class="d-flex align-items-center">
-          <span>
-            <i class="search">
-              <img src="assets/svg/search.svg" alt="search" />
-            </i>
-          </span>
-          <input
-            class="form-control border-0 border-bottom bg-lightgrey"
-            type="search"
-            placeholder="Search for an item..."
-          />
-        </div>
-
-        <!-- <form
-          class="d-none d-lg-flex  mx-auto w-30 border-bottom bg-lightgrey"
-          role="search"
-        >
-          <div>
+          <!-- Search bar -->
+          <div
+            class="d-none d-md-flex align-items-center border-0 border-bottom"
+          >
             <span>
               <i class="search">
                 <img src="assets/svg/search.svg" alt="search" />
               </i>
             </span>
             <input
-              class="form-control border-0"
+              class="form-control search-input border-0 text-input bg-lightgrey"
               type="search"
               placeholder="Search for an item..."
             />
           </div>
-        </form> -->
+        </div>
 
         <!-- Menu items -->
         <ul
@@ -141,21 +127,23 @@
       <div class="row vh-90">
         <div class="col-sm-12 col-md-8 h-100 bg-navy position-relative">
           <div
-            class="position-absolute text-white bg-darkBlue d-flex align-items-start justify-content-center p-4 flex-column text-center"
+            class="position-absolute text-white bg-darkBlue d-flex align-items-center align-items-md-start justify-content-center p-5 flex-column"
             style="
               min-width: 280px;
-              max-width: 550px;
+              max-width: 590px;
               top: 25%;
               left: 5%;
               right: 5%;
             "
           >
-            <h1 class="fs-56 fs-md-1">Get up to 30% off</h1>
-            <h1 class="fs-56 fs-md-1 text-badge">New Arrivals</h1>
-            <p class="fs-18 fw-light text-light-text fs-md-5">
+            <h1 class="fs-56 custom-text-sm-18">Get up to 30% off</h1>
+            <h1 class="fs-56 custom-text-sm-18 text-badge">New Arrivals</h1>
+            <p
+              class="fs-18 fw-light text-center custom-text-sm-14 text-light-text fs-md-5"
+            >
               Introducing our latest collection of products
             </p>
-            <button class="main-btn mt-3">
+            <button class="main-btn mt-3 custom-text-sm-14 text-nowrap">
               PLACE YOUR ORDER
               <img src="./assets/svg/right-arrow.svg" alt="" class="ms-2" />
             </button>
@@ -483,7 +471,6 @@
     </section>
     <!-- Footer Starts Here -->
     <footer class="p-5 text-textgrey bg-lightgrey">
-      <!-- <div class="d-flex justify-content-between h-100"> -->
       <div
         class="d-flex flex-column flex-lg-row justify-content-between h-100 gap-4"
       >
@@ -566,12 +553,6 @@
                   SIGN UP FOR LAURA’S CLOSET STYLE NEWS
                 </p>
               </div>
-              <!-- <div class="w-100 d-flex gap-2">
-                <input class="w-75 p-2" type="email" placeholder="Your email" />
-                <button class="w-25 p-2 bg-darkBlue text-white">
-                  SUBSCRIBE
-                </button>
-              </div> -->
               <div class="w-100 d-flex flex-column flex-lg-row gap-2">
                 <input
                   class="w-100 w-lg-75 p-2"
